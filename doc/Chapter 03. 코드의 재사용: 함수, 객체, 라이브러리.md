@@ -81,17 +81,20 @@
 
 우리가 직접 클래스를 만들지 않더라도, 설치한 `pybithumb` 라이브러리 내부에는 전문가들이 이미 만들어둔 클래스들이 가득합니다.
 
-*   **실전 예시 (Bithumb API 객체 사용):**
+*   **실전 예시**
     ```python
     import pybithumb
+    from pprint import pprint
 
-    # Bithumb 클래스를 사용해 'my_account'라는 객체를 만듭니다.
-    # (실제 계정 키는 추후 Chapter 07에서 발급받습니다)
-    my_account = pybithumb.Bithumb("CONNECT_KEY", "SECRET_KEY")
+    # 현재가(종가) 조회
+    price = pybithumb.get_current_price("BTC")
+    print("현재가(종가):", price)
 
-    # 객체 안에 있는 'get_balance'라는 기능을 점(.)을 찍어 사용합니다.
-    balance = my_account.get_balance("BTC")
-    print(f"내 비트코인 잔고: {balance}")
+    # 호가(orderbook) 조회
+    orderbook = pybithumb.get_orderbook("BTC")
+    # orderbook은 dict 구조로 bids/asks 정보가 들어있습니다.
+    print("호가(매도/매수 샘플):")
+    pprint(orderbook)
     ```
 
 ---

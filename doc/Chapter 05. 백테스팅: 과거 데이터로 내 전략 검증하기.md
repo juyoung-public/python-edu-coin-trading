@@ -76,7 +76,7 @@ print(f"최근 시황 수익률:\n{df['ror'].tail()}")
 df['hpr'] = df['ror'].cumprod()
 
 # 최종 누적 수익률 출력
-final_return = (df['hpr'][-1] - 1) * 100
+final_return = (df['hpr'].iloc[-1] - 1) * 100
 print(f"최종 누적 수익률: {final_return:.2f}%")
 
 # 수익률 그래프 그리기

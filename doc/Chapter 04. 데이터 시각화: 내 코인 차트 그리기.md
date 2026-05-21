@@ -81,8 +81,8 @@ plt.show()
 
 **세 번째 셀에 입력:**
 ```python
-# 5일 이동평균선 계산 (최근 5일간의 평균 가격)
-df['MA5'] = df['close'].rolling(window=5).mean()
+# 120일 이동평균선 계산 (120일간의 평균 가격)
+df['MA'] = df['close'].rolling(window=120).mean()
 
 plt.figure(figsize=(10, 5))
 
@@ -90,9 +90,9 @@ plt.figure(figsize=(10, 5))
 plt.plot(df.index, df['close'], label='Close Price')
 
 # 5일 이동평균선 그래프 (빨간색 점선)
-plt.plot(df.index, df['MA5'], label='5-Day Moving Average', color='red', linestyle='--')
+plt.plot(df.index, df['MA'], label='Moving Average', color='red', linestyle='--')
 
-plt.title('Bitcoin Price with MA5')
+plt.title('Bitcoin Price with Moving Average')
 plt.legend()
 plt.show()
 ```
@@ -110,7 +110,7 @@ plt.show()
 ## ✅ 이번 챕터 요약 과제
 
 1.  비트코인(`BTC`)이 아닌 **이더리움(`ETH`)**의 데이터를 가져와서 그래프를 그려보세요.
-2.  5일 이동평균선이 아니라 **20일 이동평균선(MA20)**을 추가해 보세요. (어떤 그래프가 더 부드러운가요?)
+2.  5일 이동평균선이 아니라 **365일 이동평균선(MA365)**을 추가해 보세요. (어떤 그래프가 더 부드러운가요?)
 3.  그래프의 제목을 자신의 이름이 들어간 제목(예: `K-Student's Bitcoin Chart`)으로 수정해 보세요.
 
 ---
