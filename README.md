@@ -42,8 +42,22 @@ jupyter notebook
 - `doc/Chapter 03. 코드의 재사용: 함수, 객체, 라이브러리.md`
 - `doc/Chapter 04. 데이터 시각화: 내 코인 차트 그리기.md`
 - `doc/Chapter 05. 백테스팅: 과거 데이터로 내 전략 검증하기.md`
+- `doc/Chapter 06. 파이썬 제어 흐름과 함수 심화.md`
+- `doc/Chapter 07. 파이썬 자료구조 심화.md`
+- `doc/Chapter 08. 파이썬 모듈과 패키지.md`
+- `doc/Chapter 09. 파이썬 입출력과 데이터 저장.md`
+- `doc/Chapter 10. 파이썬 오류와 예외 처리.md`
+- `doc/Chapter 11. 파이썬 클래스와 객체.md`
+- `doc/Chapter 12. 파이썬 표준 라이브러리 둘러보기.md`
+- `doc/Chapter 13. 파이썬 표준 라이브러리 심화.md`
+- `doc/Chapter 14. 파이썬 가상 환경과 패키지 관리.md`
+- `doc/Chapter 15. 파이썬 학습 확장과 실전 도구.md`
 - `src/chapter_04.ipynb`
 - `src/chapter_05.ipynb`
+- `src/chapter_06.ipynb`
+- `src/chapter_07.ipynb`
+- `src/chapter_08.ipynb`
+- `src/chapter_09.ipynb`
 
 ## 참고
 
