@@ -1,0 +1,6 @@
+user_id,level,play_time_hours,win_rate,login_count,spend_amount,favorite_mode
+U001,5,10,0.45,8,0,경쟁
+U002,8,18,0.52,14,12000,협동
+U003,12,25,0.61,16,28000,경쟁
+U004,14,32,0.68,20,36000,협동
+U005,20,45,0.74,27,52000,경쟁

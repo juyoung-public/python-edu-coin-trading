@@ -64,6 +64,8 @@ jupyter notebook
 - `src/chapter_13.ipynb`
 - `src/chapter_14.ipynb`
 - `src/chapter_15.ipynb`
+- `src/chapter_16.ipynb`
+- `src/chapter_17.ipynb`
 
 ## 참고
 
