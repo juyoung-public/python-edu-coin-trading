@@ -58,6 +58,12 @@ jupyter notebook
 - `src/chapter_07.ipynb`
 - `src/chapter_08.ipynb`
 - `src/chapter_09.ipynb`
+- `src/chapter_10.ipynb`
+- `src/chapter_11.ipynb`
+- `src/chapter_12.ipynb`
+- `src/chapter_13.ipynb`
+- `src/chapter_14.ipynb`
+- `src/chapter_15.ipynb`
 
 ## 참고
 
